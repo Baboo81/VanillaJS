@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/styles/styles.css">
+        <script src="./assets/scripts/main.js" defer></script>
+        <title>test</title>
+    </head>
+    <body>
+        <nav>
+            <a href="#" 
+               class="nav-icon" 
+               aria-label="visit homepage" 
+               aria-current="page">
+                <img src="./assets/img/icons/chat.svg" alt="chat icon">
+                <span>EverChat</span>
+            </a>
+
+            <div class="main-navlinks">
+                <button class="hamburger" 
+                        type="button"
+                        aria-label="Toggle navigation"
+                        aria-expanded="false">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                </button>
+                <div class="navlinks-container">
+                    <a href="#" aria-current="page">Home</a>
+                    <a href="#">Services</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Community</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+
+            <div class="nav-authentication">
+                <!--Pt écran-->
+                <a href="#" class="sign-user" aria-label="Sign in page">
+                    <img src="./assets/img/icons/user.svg" alt="user icon">
+                </a>
+                <!--Gd écran-->
+                <div class="sign-btns">
+                    <button type="button">Sign In</button>
+                    <button type="button">Sign Up</button>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <h1>Slider</h1>
+            <div class="container">
+                <div class="slider">
+                    <img src="./assets/img/esp1.JPG" alt="" class="active photo">
+                    <img src="./assets/img/esp2.JPG" alt="" class="photo">
+                    <img src="./assets/img/esp3.JPG" alt="" class="photo">
+                    <img src="./assets/img/esp4.JPG" alt="" class="photo">
+                </div>
+
+                <div class="controls-btn">
+                    <div class="btn-nav left">&#x2190;</div>
+                    <div class="btn-nav right">&#x2192;</div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
